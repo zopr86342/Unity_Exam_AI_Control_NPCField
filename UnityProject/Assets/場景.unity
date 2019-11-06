@@ -343,29 +343,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
---- !u!1 &1802100167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1780668517}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1802100168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802100167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a94ddb7ef2109e4478fbceaf6082f005, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  say: "\u55E8\uFF0C\u4F60\u597D\uFF0C\u6211\u5FEB\u6C92\u96FB\u4E86\uFF0C\u53EF\u4EE5\u8ACB\u4F60\u5E6B\u6211\u627E\u5230\u4E94\u9846\u96FB\u6C60\u55CE\uFF1F"
-  saySpeed: 0.2
-  complete: 0
-  bateryFinish: 5
-  batery: 0
 --- !u!1001 &1961258363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -541,19 +518,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &2146034156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146034152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08f46f67950d45346abc8d9fe1306eb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
-  jump: 100
-  isGround: 0
-  rig: {fileID: 2146034155}
